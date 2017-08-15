@@ -10,8 +10,19 @@ title:               Elite
 tagline:             'A Jekyll theme'
 description:         'A reserved <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that places the utmost gravity on content with a hidden drawer. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
 url:                 https://franksoong.github.io
+twitter_username: franksoong
+github_username:  franksoong
+
+# for local run
+#baseurl: ""
+# for host run
 baseurl:             'https://franksoong.github.io/'
-paginate:            6
+
+
+# config for jekyll-paginate
+# http://jekyllrb.com/docs/pagination/
+paginate:            3
+paginate_path: "/blog/page:num/"
 
 # About/contact
 author:
@@ -21,6 +32,13 @@ author:
 
 # Custom vars
 version:             1.0.0
+
+
+
+# Build settings
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
 
 
 # All my posts are gone! Where’d they go!
