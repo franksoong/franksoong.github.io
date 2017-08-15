@@ -33,12 +33,15 @@ author:
 # Custom vars
 version:             1.0.0
 
-
+sass:
+    style: compressed
 
 # Build settings
 plugins:
   - jekyll-feed
   - jekyll-paginate
+  - jekyll-coffeescript
+  - uglifier
 
 
 # All my posts are gone! Where’d they go!
