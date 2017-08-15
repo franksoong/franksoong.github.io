@@ -4,7 +4,6 @@
 permalink:           pretty
 # http://jekyllrb.com/docs/upgrading/2-to-3/
 # relative_permalinks: true
-
 # Setup
 title:               Lanyon
 tagline:             'A Jekyll theme'
